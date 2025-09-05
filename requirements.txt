@@ -1,12 +1,9 @@
 # Essential dependencies for Eco-Scoring API
-fastapi==0.104.1
-uvicorn==0.24.0
-pydantic==2.5.0
-python-dotenv==1.0.0
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+pydantic==2.8.2
+python-dotenv==1.0.1
 google-generativeai==0.8.3
 
 # HTTP client for testing
-requests==2.31.0
-
-# CORS middleware (included in FastAPI but explicit for clarity)
-# Note: CORS is handled by fastapi.middleware.cors
+requests==2.32.3
